@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Stack, Typography, Button} from "@mui/material"
+import {Box, Typography, Button} from "@mui/material"
 import Banner from "../assets/images/banner.jpg"
 
 export const HeroBanner = () => {
@@ -17,7 +17,9 @@ export const HeroBanner = () => {
         Rendirse <br /> no es una opción
       </Typography>
       <Typography fontSize="22px" lineHeight="35px" mb="20px">
-       Mirá nuestros ejercicios más efectivos
+       Aquí encontrarás ejercicios para mantener activo tu cuerpo, <br /> te sentiras con más energía
+       y más saludables. <br />
+        Los ejercicios estan en inglés <br /> asi que es una buena alternativa para ponerlo en practica
       </Typography>
       <Button variant='contained' color="error" 
         href='#exercises'
